@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+/* RESET 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*/
+/* LAYOUT */
+.body-bg{ 
+    background-color: #F47925;
+}
+
+.table-text {
+    font: sans-serif;
+	margin: 0px;
+    padding: 0px;
+	color: #ffffff;
+}
+
+.tabla-borde {
+    border: solid 1px;
+    border-color: #FFFFFF;
+}
+
+.tabla-bg-blue{
+    background: rgba(96, 221, 60, 1);
+}
+.tabla-bg-skyblue{
+    background-color: #32ABFA;
+}
+.tabla-bg-orange{
+    background-color: #4DDCC8;
+}
+
+
+.formato-img{
+    width: 100%;
+    height: 150px;
+    margin-top: 41px;
+}
+
+.formato-button{
+    margin: 0;
+    text-align: center;
+    font: sans-serif; 
+    font-size: 1.5rem;
+	color: #ffffff;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.formato-button:hover{ 
+    font-size: 1.8rem;
+    background-color:rgba(230, 224, 0, 1);
+    width: 310px;
+    height: 52px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.formato-container{
+    margin: 1rem;
+}
+
+.formato-div-tabla{
+    position: relative;
+    padding-left:  2rem;
+    padding-right: 2rem;
+    padding-top: 1rem
+}
+
+.font-formato{
+    font-size: 2rem;
+    vertical-align: middle;
+    text-align: justify;
+}
+section {
+}
+
+section .section-title {
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+#footer{
+    background-color: #A3BF3F;
+    font-weight: bold;
+    font-size: 22px;
+}
+#footer h5{
+    padding: 0px;
+    margin: 0px;
+    border-left: solid #eeeeee;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    vertical-align: bottom;
+    border-radius: solid 1px;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;;
+	padding-top: 10px;
+    height: 0;
+}
+#footer ul.social li a:hover{
+    font-size: 2.4rem;
+    color: #00838f;
+    vertical-align: bottom;
+    border-radius: 15px;
+    border: 0;
+    padding: 5px; 
+    background-color: #eded8a;
+    -webkit-box-shadow: 0px 0px 81px 11px rgba(237,237,138,1);
+    -moz-box-shadow: 0px 0px 81px 11px rgba(237,237,138,1);
+    box-shadow: 0px 0px 81px 11px rgba(237,237,138,1);
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+/*Responsive*/
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    }
+    
+}
+
+@media (max-width: 571.98px) {
+    .formato-div-tabla{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+    .formato-button{
+        margin: 0;
+        width: 180px;
+        font-size: 1.2rem; 
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }   
+    .formato-button:hover{ 
+        font-size: 1.2rem; 
+        width: 200px;
+        cursor: pointer;
+    }
+    .font-formato{
+        font-size: 1.5rem;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    
+    
+}
+
+@media (min-width: 571.98px) {
+  .formato-div-tabla {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    padding-left: 2rem;
+    padding-right:2rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+    .formato-button{
+        margin: 0;
+        width: 300px;   
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }  
+    
+    
+}
+
+/*Cursos Libres*/
+.cuadro-text {
+    font: sans-serif;
+    color: #FFFFFF;
+}
+.sonbra-cuadros{
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+.container-cursos{
+    width: 97%;
+    margin: auto;
+    top: 40px;
+    position: relative;
+    overflow: hidden;
+}
